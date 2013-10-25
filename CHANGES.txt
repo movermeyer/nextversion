@@ -1,3 +1,9 @@
+0.6
+        - Hack for install dependent packages
+
+0.5
+        - Hack for install dependent packages
+
 0.4
         - Hack for install dependent packages
 

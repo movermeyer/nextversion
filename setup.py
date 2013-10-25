@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from setuptools import setup
-import nextversion
 
 
 setup(
@@ -10,9 +9,9 @@ setup(
     long_description = open('README.rst').read(),
     url              = 'https://github.com/laysakura/nextversion',
     license          = 'LICENSE.txt',
-    version          = nextversion.__version__,
-    author           = nextversion.__author__,
-    author_email     = nextversion.__email__,
+    version          = '0.6',
+    author           = 'Sho Nakatani',
+    author_email     = 'lay.sakura@gmail.com',
     test_suite       = 'nose.collector',
     install_requires = [
         'verlib',
