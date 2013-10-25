@@ -5,27 +5,28 @@ import nextversion
 
 
 setup(
-    name          = 'nextversion',
-    description   = 'A Python package to generate next version string',
-    url           = 'https://github.com/laysakura/nextversion',
-    license       = 'LICENSE.txt',
-    version       = nextversion.__version__,
-    author        = nextversion.__author__,
-    author_email  = nextversion.__email__,
-    test_suite    = 'nose.collector',
-    requires      = [
+    name             = 'nextversion',
+    description      = 'A Python package to generate next version string',
+    long_description = open('README.rst').read(),
+    url              = 'https://github.com/laysakura/nextversion',
+    license          = 'LICENSE.txt',
+    version          = nextversion.__version__,
+    author           = nextversion.__author__,
+    author_email     = nextversion.__email__,
+    test_suite       = 'nose.collector',
+    requires         = [
         'verlib',
     ],
-    tests_require = [
+    tests_require    = [
         'nose',
         'nose-parameterized',
         'coverage',
     ],
-    packages      = [
+    packages         = [
         'nextversion',
         'nextversion.test'
     ],
-    classifiers   = '''
+    classifiers      = '''
 Programming Language :: Python
 Development Status :: 1 - Planning
 License :: OSI Approved :: Apache Software License
