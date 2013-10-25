@@ -1,3 +1,6 @@
+0.4
+        - Hack for install dependent packages
+
 0.3
         - Updated document
 

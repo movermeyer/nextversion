@@ -15,13 +15,10 @@
     1. Next version compatible with `PEP 386 <//www.python.org/dev/peps/pep-0386/>`_ is returned if possible,
     2. If impossible, `None` is returned.
 """
-__version__   = '0.2'
+__version__   = '0.4'
 __author__    = 'Sho Nakatani'
 __email__     = 'lay.sakura@gmail.com'
 __copyright__ = 'Copyright 2013, Sho Nakatani'
-
-
-import verlib
 
 
 def nextversion(current_version):
@@ -32,6 +29,8 @@ def nextversion(current_version):
                             If impossible (since `current_version` is too far from PEP 386),
                             `None` is returned.
     """
+    import verlib
+
     norm_ver = verlib.suggest_normalized_version(current_version)
     if norm_ver is None:
         return None
@@ -55,6 +54,8 @@ def nextversion(current_version):
 
 
 def _mk_incremented_parts(parts, part_idx, in_part_idx, incval=1):
+    import verlib
+
     in_part_idx %= len(parts[part_idx])  # for negative index
 
     new_part = []
