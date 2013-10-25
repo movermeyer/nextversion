@@ -1,9 +1,7 @@
 nextversion
 ~~~~~~~~~~~
 
-A Python package to increments module verision numbers.
-
-    .. code:: python
+A Python package to increments module verision numbers.::
 
     from nextversion import nextversion
     nextversion('1.0a2')    # => '1.0a3'
