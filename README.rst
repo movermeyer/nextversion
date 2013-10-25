@@ -1,7 +1,7 @@
 nextversion
 ~~~~~~~~~~~
 
-A Python package to increments module verision numbers.::
+A Python package to increments module verision numbers.
 
     .. code:: python
 
