@@ -3,6 +3,8 @@ nextversion
 
 A Python package to increments module verision numbers.::
 
+    .. code:: python
+
     from nextversion import nextversion
     nextversion('1.0a2')    # => '1.0a3'
     nextversion('v1.0a2')   # => '1.0a3'  (normalized to compatible version with PEP 386)
