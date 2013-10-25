@@ -14,7 +14,7 @@ setup(
     author           = nextversion.__author__,
     author_email     = nextversion.__email__,
     test_suite       = 'nose.collector',
-    requires         = [
+    install_requires = [
         'verlib',
     ],
     tests_require    = [
@@ -28,9 +28,12 @@ setup(
     ],
     classifiers      = '''
 Programming Language :: Python
-Development Status :: 1 - Planning
-License :: OSI Approved :: Apache Software License
+Development Status :: 5 - Production/Stable
+Environment :: Plugins
+Intended Audience :: Developers
+Topic :: Software Development :: Libraries :: Python Modules
 Programming Language :: Python :: 2.7
-Operating System :: POSIX :: Linux
+Programming Language :: Python :: 3.3
+License :: OSI Approved :: Apache Software License
 '''.strip().splitlines()
 )
