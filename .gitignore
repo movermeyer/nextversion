@@ -2,6 +2,7 @@
 *.pyc
 core
 
+.coverage
 .python-version
 *.egg/
 *.egg-info/

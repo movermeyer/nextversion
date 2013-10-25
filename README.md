@@ -3,9 +3,9 @@ A Python package to increments module verision numbers.
 
 ```python
 from nextversion import nextversion
-nextversion('1.0rc2')   # => '1.0rc3'
-nextversion('v1.0rc2')  # => '1.0rc3'  (normalized to compatible version with PEP 386)
-nextversion('foo.0.3')  # => None      (impossible to normalize)
+nextversion('1.0a2')   # => '1.0a3'
+nextversion('v1.0a2')  # => '1.0a3'  (normalized to compatible version with PEP 386)
+nextversion('foo.0.3')  # => None    (impossible to normalize)
 ```
 
 If original version number does not match [PEP 386](//www.python.org/dev/peps/pep-0386/),
