@@ -1,3 +1,7 @@
 *~
 *.pyc
 core
+
+.python-version
+*.egg/
+*.egg-info/
