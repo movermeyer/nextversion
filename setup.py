@@ -20,6 +20,7 @@ setup(
         'nose',
         'nose-parameterized',
         'coverage',
+        'nose-cov',
     ],
     packages         = [
         'nextversion',

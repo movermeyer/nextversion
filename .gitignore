@@ -2,7 +2,7 @@
 *.pyc
 core
 
-.coverage
+.coverage*
 .python-version
 dist/
 *.egg/
