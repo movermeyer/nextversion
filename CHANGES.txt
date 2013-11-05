@@ -1,3 +1,6 @@
+0.8
+        - Started using nose-cov for testing
+
 0.7
         - Updated document
 
