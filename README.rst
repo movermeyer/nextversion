@@ -1,5 +1,7 @@
 nextversion
 ~~~~~~~~~~~
+.. image:: https://travis-ci.org/laysakura/nextversion.png?branch=master
+   :target: https://travis-ci.org/laysakura/nextversion
 
 A Python package to increments module verision numbers.
 
