@@ -1,7 +1,7 @@
 Changelog for nextversion
 =========================
 
-1.0 (unreleased)
+1.0 (2013-12-04)
 ----------------
 
 - Stable release
