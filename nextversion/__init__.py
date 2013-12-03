@@ -15,12 +15,6 @@
     1. Next version compatible with `PEP 386 <//www.python.org/dev/peps/pep-0386/>`_ is returned if possible,
     2. If impossible, `None` is returned.
 """
-__version__   = '0.2'
-__author__    = 'Sho Nakatani'
-__email__     = 'lay.sakura@gmail.com'
-__copyright__ = 'Copyright 2013, Sho Nakatani'
-
-
 import verlib
 
 

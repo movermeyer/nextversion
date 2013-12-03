@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from setuptools import setup
-import nextversion
 
 
 setup(
@@ -10,17 +9,18 @@ setup(
     long_description = open('README.rst').read(),
     url              = 'https://github.com/laysakura/nextversion',
     license          = 'LICENSE.txt',
-    version          = nextversion.__version__,
-    author           = nextversion.__author__,
-    author_email     = nextversion.__email__,
+    version          = '0.8',
+    author           = 'Sho Nakatani',
+    author_email     = 'lay.sakura@gmail.com',
     test_suite       = 'nose.collector',
-    requires         = [
+    install_requires = [
         'verlib',
     ],
     tests_require    = [
         'nose',
         'nose-parameterized',
         'coverage',
+        'nose-cov',
     ],
     packages         = [
         'nextversion',
@@ -28,9 +28,12 @@ setup(
     ],
     classifiers      = '''
 Programming Language :: Python
-Development Status :: 1 - Planning
-License :: OSI Approved :: Apache Software License
+Development Status :: 5 - Production/Stable
+Environment :: Plugins
+Intended Audience :: Developers
+Topic :: Software Development :: Libraries :: Python Modules
 Programming Language :: Python :: 2.7
-Operating System :: POSIX :: Linux
+Programming Language :: Python :: 3.3
+License :: OSI Approved :: Apache Software License
 '''.strip().splitlines()
 )
