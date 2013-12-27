@@ -3,6 +3,10 @@ nextversion
 .. image:: https://travis-ci.org/laysakura/nextversion.png?branch=master
    :target: https://travis-ci.org/laysakura/nextversion
 
+.. image:: https://pypip.in/v/nextversion/badge.png
+    :target: https://pypi.python.org/pypi/nextversion
+    :alt: Latest PyPI version
+
 A Python package to increments module verision numbers.
 
 .. code-block:: python
