@@ -3,7 +3,7 @@ nextversion
 .. image:: https://travis-ci.org/laysakura/nextversion.png?branch=master
    :target: https://travis-ci.org/laysakura/nextversion
 
-.. image:: https://pypip.in/v/nextversion/badge.png
+.. image:: https://img.shields.io/pypi/v/nextversion.svg
     :target: https://pypi.python.org/pypi/nextversion
     :alt: Latest PyPI version
 
